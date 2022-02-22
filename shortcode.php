@@ -69,7 +69,7 @@ final class bbChildThemeDeluxeShortcodes {
 // 					Add Tooltip with the location name on hover 
 					townNameX.on('mouseover', function(){townNameX.bindTooltip(townNameX.className + "<br> <sub>Click for more information</sub>"); townNameX.openTooltip(); });
 // 					Open the location's URL when object is clicked
-					townNameX.on('click', function() {console.log('clicked'); window.location = locationUrl;});
+					townNameX.on('click', function() {window.location = locationUrl;});
 				};
 				
 // 	List of locations, based on the GeoJSON file called on this page main.js 
